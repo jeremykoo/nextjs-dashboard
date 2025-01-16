@@ -1,7 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // https://nextjs.org/docs/messages/ppr-preview
+  // experimental: {
+  //   ppr: 'incremental',
+  // },
 };
 
 export default nextConfig;
